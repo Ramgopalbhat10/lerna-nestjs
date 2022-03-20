@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Lerna monorepo for Nest.js applications",
   "private": true,
+  "scripts": {
+    "start:grpc-auth-svc:dev": "lerna exec --scope @mrgb/grpc-auth-svc -- yarn start"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   },
