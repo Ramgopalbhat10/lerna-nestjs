@@ -1,0 +1,17 @@
+{
+  "name": "@mrgb/root",
+  "version": "1.0.0",
+  "description": "Lerna monorepo for Nest.js applications",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
